@@ -17,4 +17,11 @@ git add -all
 git commit -m “Write down your message that describes your changes”
 git push
 
-Any other operations like branches we’ll deal with later.
+To discard changes:
+cd C:/Enter/The/Folder/Everything/Is/In
+git stash
+
+Any other operations like branches and pull requests we’ll deal with later.
+
+NOTE: DO NOT PUSH CHANGES MADE DIRECTLY TO THE UNITY SCENE UNLESS YOU ARE THE ONLY ONE WORKING ON IT.
+It is fine to edit and commit changes to assets like scripts but changes to game objects and components need to be made while only one person is working on it.
